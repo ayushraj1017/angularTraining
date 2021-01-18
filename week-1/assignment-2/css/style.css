@@ -1,0 +1,28 @@
+body{
+  background-image: linear-gradient(to right,blue,rgb(248, 58, 248));
+}
+table,td,th{
+  margin: 100px auto;
+  border-collapse: collapse;
+  }
+.sales-data td,.sales-data th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+tbody tr{
+  background-color:#ddd;
+}
+.sales-data tr:nth-child(even){
+  background-color: #ada0a0;
+}
+.sales-data tr:hover {
+  background-color: #ddd;
+}
+.sales-data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 100px;
+  text-align: left;
+  background-color:#323232;
+  color: white;
+}
