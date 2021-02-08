@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+body{
+   
+    background-image: url('../image/welcome.jpg');
+    background-size: cover;
+}
+
+button{
+    background-color: sandybrown;
+    color: white;
+    border: 2px black;
+    cursor: pointer;
+    width: 60%;
+}
+
+button:hover{
+    opacity:0.6 ;
+}
+
+#output{
+    background-color:sandybrown;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#logout{
+    width: 150px;
+    padding: 8px;
+    margin: auto;
+    margin-top: 5px;
+}
+

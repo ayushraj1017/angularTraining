@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('../image/signup.jpg');
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+form{
+    width: 600px;
+    background-color:gainsboro;
+    margin-left: 30%;
+}
+
+button{
+    background-color: sandybrown;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 140px;
+    border: 2px black;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover{
+    opacity:0.6 ;
+
+}
+
+form div{
+    padding: 2.5px;
+}
+
+form input, form label{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+label{
+    font-weight: 400;
+}
+
+input{
+    border-radius: 5px;
+    color: #444;
+    border: 2px solid #e3e3e3;
+    box-shadow: none;
+    outline: #444;
+    padding: 6px 16px;
+}
+
+#radio{
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#radio input,#radio label{
+    display: inline;
+    width: auto;
+}
+
+.invalid{
+    color:rgb(109, 89, 34);
+    text-align: center;
+}
+
+i{
+    font-size: 20px;
+}

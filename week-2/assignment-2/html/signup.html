@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+
+<body>
+    <form>
+        <header>
+            <b>Enter your personal informaton</b>
+        </header>
+
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Ayush Raj" minlength="5" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="abcd@gmail.com" id="email" required>
+
+        <label for="mobile">Phone Number</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="8756254863" minlength="10" maxlength="10" required>
+
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" name="DOB" id="DOB" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="123456Aa@" minlength="6" maxlength="12"
+            required>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="123456Aa@" minlength="6"
+            maxlength="12" required>
+
+        <div id='radio'>
+            <i>Gender :</i>
+            <input type="radio" name="gender" id="male" value="male" checked="checked" required>
+            <label for='male'>male</label>
+
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="female">female</label>
+
+            <input type="radio" name="gender" id="others" value="others" required>
+            <label for="others">others</label>
+        </div>
+        <div>
+            <p class="invalid"></p>
+        </div>
+        <div id='buttonid'>
+            <button id="submit">Signup</button>
+        </div>
+        <div id='buttonid'>
+            <button id='login'>Login</button>
+        </div>
+    </form>
+
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>
